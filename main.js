@@ -5,8 +5,8 @@
 
 // 2-chi masala
 function hello(world) {
-  let world1 = world.split(" ");
-
-  return console.log(world1);
+  let world1 = world.split("").reverse();
+  let wor = world1.join('');
+  return console.log(wor);
 }
 hello("salom dunyo");
